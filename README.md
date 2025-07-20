@@ -50,8 +50,8 @@ The project utilizes a historical stock price dataset for **Alphabet Inc.'s Clas
 ### 📁 Project Structure
 
 ```bash
-├── GoogleStockPrices.csv         # The dataset used for the project
-└── models                        # Main Python scripts containing the differnet LSTM model 
+├── Dataset                       # The dataset and data visualisation used for the project
+└── Models                        # Main Python scripts containing the differnet LSTM model
 └── README.md                     # This README file
 ```
 ### 💡 Key Learnings & Insights
