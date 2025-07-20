@@ -79,11 +79,11 @@ The script generates a multi-panel plot, typically consisting of 2 or 3 subplots
             * Consist of a middle band (typically a 20-day Simple Moving Average), an upper band (2 standard deviations above the middle band), and a lower band (2 standard deviations below).
             * *Inference*: Bollinger Bands measure market volatility. When bands widen, volatility increases; when they narrow, volatility decreases. Prices tend to stay within the bands, and touches/breaks of the bands can signal overbought/oversold conditions or potential reversals.
 
-2.  **Volume Plot (Middle Panel - Optional)**
+2.  **Volume Plot (Middle Panel )**
     * **Content**: A bar chart showing the daily trading `Volume` (number of shares traded).
     * *Inference*: Volume is crucial for confirming price trends. High volume on a price move (up or down) indicates strong conviction behind that move, while low volume might suggest a weak trend.
 
-3.  **RSI Plot (Bottom Panel - Optional)**
+3.  **RSI Plot (Bottom Panel )**
     * **Content**: A line plot of the **Relative Strength Index (RSI)**, typically a 14-period momentum oscillator.
     * **Horizontal Lines**: Includes a dashed red line at 70 (indicating **overbought** conditions) and a dashed green line at 30 (indicating **oversold** conditions).
     * *Inference*: RSI measures the speed and change of price movements. It oscillates between 0 and 100. Readings above 70 suggest the asset is overbought (potentially due for a pullback), while readings below 30 suggest it is oversold (potentially due for a rebound).
